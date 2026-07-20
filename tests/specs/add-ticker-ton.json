@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Add Toncoin",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Add Toncoin to the user's watchlist"
+            }
+          }
+        ],
+        "send": {
+          "callback": "add_ticker:TON"
+        }
+      }
+    ]
+  }
+]
